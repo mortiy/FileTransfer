@@ -1,0 +1,119 @@
+html, body {
+  padding: 0px;
+   margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.hide {
+    display: none;
+}
+
+
+#sender-container {
+    width: 700px;
+    margin: 0 auto;
+
+    #dropbox {
+
+        background: #dddddd;
+        font-size: 26px;
+        width: 100%;
+        height: 200px;
+        line-height: 200px;
+        margin: 0 auto;
+        text-align: center;
+
+        &.drag-over {
+            background: #fbfd94;
+        }
+        &.drop-done {
+            background-color: #a7f69d;
+        }
+    }
+
+    #transfer-url {
+        color: #009900;
+        font-size: 1.3em;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 1em;
+        &:hover {
+            color: lighten(#009900, 5%);
+            cursor: pointer;
+        }
+    }
+
+}
+
+#receiver-container {
+    width: 700px;
+    margin: 0 auto;
+
+    .file-info {
+        margin-bottom: 1em;
+    }
+
+    .file-name {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+    }
+    .file-size {
+        font-size: 1.2em;
+        color: green;
+        font-weight: bold
+    }
+
+    .receive-button {
+        clear: both;
+        display: inline-block;
+        padding: 10px;
+        border: 1px solid darkgreen;
+        background-color: green;
+        color: white;
+        margin-bottom: 1em;
+        &:hover {
+            background-color: greenyellow;
+            color: black;
+            cursor: pointer;
+        }
+    }
+}
+
+
+#upload-progress {
+    width: 100%;
+    height: 25px;
+}
+
+#transfer-progress {
+    background-color: #eee;
+}
+
+.file-transfer {
+    padding: 5px 10px;
+
+    margin-bottom: 1em;
+
+    &.finished {
+        background-color: #C9EEBB;
+    }
+
+    .file-name {
+        margin-bottom: 0.5em;
+        font-weight: bold;
+        float: left;
+    }
+    .file-size {
+        float: right;
+    }
+    .file-progress {
+        width: 100%;
+        height: 25px;
+        clear: both;
+    }
+}
+
+

@@ -1,0 +1,9 @@
+{{#file}}
+<div class="file-transfer">
+    <div class="file-name">{{name}}</div>
+    <div class="file-size"><span class="complete">0</span> из {{size}} байт</div>
+    <progress class="file-progress" value="0" max="100">
+        <span class="upload-percent">0 %</span>
+    </progress>
+</div>
+{{/file}}

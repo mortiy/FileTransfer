@@ -1,0 +1,99 @@
+html,
+body {
+  padding: 0px;
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+.hide {
+  display: none;
+}
+#sender-container {
+  width: 700px;
+  margin: 0 auto;
+}
+#sender-container #dropbox {
+  background: #dddddd;
+  font-size: 26px;
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+#sender-container #dropbox.drag-over {
+  background: #fbfd94;
+}
+#sender-container #dropbox.drop-done {
+  background-color: #a7f69d;
+}
+#sender-container #transfer-url {
+  color: #009900;
+  font-size: 1.3em;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+#sender-container #transfer-url:hover {
+  color: #00b300;
+  cursor: pointer;
+}
+#receiver-container {
+  width: 700px;
+  margin: 0 auto;
+}
+#receiver-container .file-info {
+  margin-bottom: 1em;
+}
+#receiver-container .file-name {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+#receiver-container .file-size {
+  font-size: 1.2em;
+  color: green;
+  font-weight: bold;
+}
+#receiver-container .receive-button {
+  clear: both;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid darkgreen;
+  background-color: green;
+  color: white;
+  margin-bottom: 1em;
+}
+#receiver-container .receive-button:hover {
+  background-color: greenyellow;
+  color: black;
+  cursor: pointer;
+}
+#upload-progress {
+  width: 100%;
+  height: 25px;
+}
+#transfer-progress {
+  background-color: #eee;
+}
+.file-transfer {
+  padding: 5px 10px;
+  margin-bottom: 1em;
+}
+.file-transfer.finished {
+  background-color: #C9EEBB;
+}
+.file-transfer .file-name {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  float: left;
+}
+.file-transfer .file-size {
+  float: right;
+}
+.file-transfer .file-progress {
+  width: 100%;
+  height: 25px;
+  clear: both;
+}

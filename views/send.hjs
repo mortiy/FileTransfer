@@ -1,0 +1,14 @@
+<div id="sender-container">
+    <div id="dropbox">Подключение...</div>
+    <input id="transfer-url" type="text" readonly="readonly">
+    <div id="transfer-progress"></div>
+</div>
+<script type="text/javascript" src="/js/sender.js"></script>
+<script>
+    $(document).ready(function(){
+        new Sender();
+        $("#transfer-url").on("click", function(){
+            $(this).select();
+        })
+    });
+</script>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yandex File Transfer</title>
+    <meta name="viewport" content="width=800"/>
+    <link rel='stylesheet' href='/css/style.css'/>
+    <script type="text/javascript" src="/js/libs/jquery-2.0.min.js"></script>
+</head>
+<body>
+    {{{body}}}
+</body>
+<script type="text/javascript" src="/js/libs/hogan-2.0.0.min.js"></script>
+<script type="text/javascript" src="/js/libs/binary.min.js"></script>
+<script type="text/javascript" src="/js/libs/FileSaver.min.js"></script>
+<script type="text/javascript" src="/js/utils.js"></script>
+</html>
