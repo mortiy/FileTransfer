@@ -1,5 +1,5 @@
 <div id="sender-container">
-    <div id="dropbox">Подключение...</div>
+    <div id="dropbox">Connecting...</div>
     <input id="transfer-url" type="text" readonly="readonly">
     <div id="transfer-progress"></div>
 </div>
