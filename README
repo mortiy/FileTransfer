@@ -1,1 +1,1 @@
-Node.js file transfer
+Node.js browser-to-browser file transferer using web-sockets (without storing on server).
