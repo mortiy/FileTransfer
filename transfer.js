@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 /**
- * Экран отправки файла
+ * Send file screen
  */
 app.get('/', function (req, res) {
     app.render('send', {}, function (err, html) {
@@ -24,7 +24,7 @@ app.get('/', function (req, res) {
 });
 
 /**
- * Получить информация о файле:
+ * Get file info
  */
 app.get('/file/:transferId', function (req, res) {
     var transferId = req.params.transferId;
@@ -48,7 +48,7 @@ app.get('/file/:transferId', function (req, res) {
 });
 
 /**
- * Получить файд:
+ * Receive file content
  */
 app.get('/get/:transferId', function (req, res) {
     var transferId = req.params.transferId;
