@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Yandex File Transfer</title>
+    <title>Node.JS File Transfer</title>
     <meta name="viewport" content="width=800"/>
     <link rel='stylesheet' href='/css/style.css'/>
     <script type="text/javascript" src="/js/libs/jquery-2.0.min.js"></script>
