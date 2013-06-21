@@ -1,11 +1,11 @@
 <div id="receiver-container">
-    <h1>Получите, распишитесь.</h1>
+    <h1>You've get a file.</h1>
     {{#file}}
         <div class="file-info">
             <div class="file-name">{{ name }}</div>
             <div class="file-size">{{ size }}</div>
         </div>
     {{/file}}
-    <a class="receive-button" href="/get/{{transferId}}">Получить файл</a>
+    <a class="receive-button" href="/get/{{transferId}}">Receive file</a>
 
 </div>
