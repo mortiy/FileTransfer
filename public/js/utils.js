@@ -19,9 +19,9 @@ var Template = {
 var UI = {
     Dropbox: {
         init: function (sender) {
-            var DRAG_STRING = 'Перетащите сюда файл для отправки...';
-            var DROP_STRING = 'Отпускайте!';
-            var SEND_LINK = 'Скопируйте и отошлите ссылку получателю:';
+            var DRAG_STRING = 'Drag and drop file to send...';
+            var DROP_STRING = 'Drop!';
+            var SEND_LINK = 'Copy this link and send to receiver:';
 
             var dropbox = $('#dropbox');
 
